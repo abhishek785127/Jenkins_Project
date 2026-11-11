@@ -1,0 +1,117 @@
+﻿10:25:13 PM # Build of test unit 'ACC_Active' started...
+10:25:13 PM - Build Step #0: BuildPreparation (ArtefactID: -1)
+10:25:13 PM - ------------------------------------------------
+10:25:13 PM - ============================== Build Step #0 finished ==============================
+10:25:13 PM - Build Step #1: PreBuildEvent (ArtefactID: -1)
+10:25:13 PM - ---------------------------------------------
+10:25:13 PM - ============================== Build Step #1 finished ==============================
+10:25:13 PM - Build Step #2: BuildTestSequenceDiagramDependencyTree (ArtefactID: -1)
+10:25:13 PM - ----------------------------------------------------------------------
+10:25:13 PM - Nothing to do (no Test Sequence Diagram Files)
+10:25:13 PM - ============================== Build Step #2 finished ==============================
+10:25:13 PM - Build Step #3: TraceArtefactIds (ArtefactID: -1)
+10:25:13 PM - ------------------------------------------------
+10:25:13 PM - Artefact IDs:
+10:25:13 PM -   0 C:\Siva\vTEST_a\ACC_Vtest\ACC_Active\ACC_States.vtt
+10:25:13 PM - ============================== Build Step #3 finished ==============================
+10:25:13 PM - Build Step #4: FuzzTestDetection (ArtefactID: -1)
+10:25:13 PM - -------------------------------------------------
+10:25:13 PM - ============================== Build Step #4 finished ==============================
+10:25:13 PM - Build Step #5: ValidateTestUnit (ArtefactID: -1)
+10:25:13 PM - ------------------------------------------------
+10:25:13 PM # Checking test unit consistency
+10:25:13 PM - ============================== Build Step #5 finished ==============================
+10:25:13 PM - Build Step #6: BuildParameterTypeLibs (ArtefactID: -1)
+10:25:13 PM - ------------------------------------------------------
+10:25:13 PM - Nothing to do (no C# documents and no .NET assemblies)
+10:25:13 PM - ============================== Build Step #6 finished ==============================
+10:25:13 PM - Build Step #7: BuildCaplTypeLibs (ArtefactID: -1)
+10:25:13 PM - -------------------------------------------------
+10:25:13 PM - Nothing to do (no C# documents and no .NET assemblies)
+10:25:13 PM - ============================== Build Step #7 finished ==============================
+10:25:13 PM - Build Step #8: BuildSysVarTypeLibs (ArtefactID: -1)
+10:25:13 PM - ---------------------------------------------------
+10:25:13 PM - Nothing to do (no C# documents and no .NET assemblies)
+10:25:13 PM - ============================== Build Step #8 finished ==============================
+10:25:13 PM - Build Step #9: BuildCoTypeLib (ArtefactID: -1)
+10:25:13 PM - ----------------------------------------------
+10:25:13 PM - Nothing to do (no C# documents and no .NET assemblies or no CO-Lib)
+10:25:13 PM - ============================== Build Step #9 finished ==============================
+10:25:13 PM - Build Step #10: ValidateTteFile (ArtefactID: 0)
+10:25:13 PM - -----------------------------------------------
+10:25:13 PM - 'C:\Siva\vTEST_a\ACC_Vtest\ACC_Active\ACC_States.vtt' is up to date (regarding to export table hash)
+10:25:13 PM - 'C:\Siva\vTEST_a\ACC_Vtest\ACC_Active\ACC_States.vtt' is outdated
+10:25:13 PM - Reason: Last write time of 'C:\Siva\vTEST_a\ACC_Vtest\ACC_Active\ACC_States.vtt' (8/29/2025 10:23:56 PM) differs from 'C:\Siva\vTEST_a\ACC_Vtest\ACC_Active\ACC_States.vtt' (8/29/2025 10:21:02 PM) stored in MAKE database
+10:25:13 PM # Compiling file 'ACC_States.vtt' in test unit 'ACC_Active'
+10:25:13 PM # Compilation succeeded (10:25:13 PM) -- 0 errors, 0 warnings
+10:25:13 PM - ============================== Build Step #10 finished ==============================
+10:25:13 PM - Build Step #11: ConditionalBuildAbort (ArtefactID: -1)
+10:25:13 PM - ------------------------------------------------------
+10:25:13 PM - All Validation succeeded - continue build.
+10:25:13 PM - ============================== Build Step #11 finished ==============================
+10:25:13 PM - Build Step #12: CollectNavigationInfo (ArtefactID: 0)
+10:25:13 PM - -----------------------------------------------------
+10:25:13 PM - ============================== Build Step #12 finished ==============================
+10:25:13 PM - Build Step #13: CompileVtt2Vxtx (ArtefactID: 0)
+10:25:13 PM - -----------------------------------------------
+10:25:13 PM - 'C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\bin_sd8nmvkqu4qa\__TsoBuildFiles_\ACC_States.vxtx' is outdated
+10:25:13 PM - Reason: Last write time of 'C:\Siva\vTEST_a\ACC_Vtest\ACC_Active\ACC_States.vtt' (8/29/2025 10:23:56 PM) differs from dependency relation to 'C:\Siva\vTEST_a\ACC_Vtest\ACC_Active\ACC_States.vtt' (8/29/2025 10:21:02 PM) stored in MAKE database
+10:25:13 PM - 'C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\bin_sd8nmvkqu4qa\__TsoBuildFiles_\ACC_States.vxtx.can' is outdated
+10:25:13 PM - Reason: Last write time of 'C:\Siva\vTEST_a\ACC_Vtest\ACC_Active\ACC_States.vtt' (8/29/2025 10:23:56 PM) differs from dependency relation to 'C:\Siva\vTEST_a\ACC_Vtest\ACC_Active\ACC_States.vtt' (8/29/2025 10:21:02 PM) stored in MAKE database
+10:25:13 PM - 'C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\bin_sd8nmvkqu4qa\__TsoBuildFiles_\ACC_States.vxtx' is up to date (regarding to export table hash)
+10:25:13 PM - ============================== Build Step #13 finished ==============================
+10:25:13 PM - Build Step #14: CompileGeneratedCapl (ArtefactID: 0)
+10:25:13 PM - ----------------------------------------------------
+10:25:13 PM - 'C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\bin_sd8nmvkqu4qa\__TsoBuildFiles_\ACC_States.vxtx.cbf' is outdated
+10:25:13 PM - Reason: Last write time of 'C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\bin_sd8nmvkqu4qa\__TsoBuildFiles_\ACC_States.vxtx.can' (8/29/2025 10:25:13 PM) differs from dependency relation to 'C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\bin_sd8nmvkqu4qa\__TsoBuildFiles_\ACC_States.vxtx.can' (8/29/2025 10:21:03 PM) stored in MAKE database
+10:25:13 PM - BuildStepUtilities.CompileCaplFile: 'C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\bin_sd8nmvkqu4qa\__TsoBuildFiles_\ACC_States.vxtx.can' --> 'C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\bin_sd8nmvkqu4qa\__TsoBuildFiles_\ACC_States.vxtx.cbf'
+10:25:13 PM - Export table file 'C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\sd8nmvkqu4qa~3-0.' not copied to 'C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\bin_sd8nmvkqu4qa\__ExpTbl_\ACC_States.vtt.export.xml' because export tables have not changed
+10:25:13 PM - Copied file 'C:\Siva\vTEST_a\ACC_Vtest\ACC_Active\ACC_States.vtt' to 'C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\bin_sd8nmvkqu4qa\ACC_States.vtt'
+10:25:13 PM - ============================== Build Step #14 finished ==============================
+10:25:13 PM - Build Step #15: MoveCSharpXmlDocumentation (ArtefactID: -1)
+10:25:13 PM - -----------------------------------------------------------
+10:25:13 PM - MoveCSharpXmlDocumentation: Skipped because option is deactivated
+10:25:13 PM - ============================== Build Step #15 finished ==============================
+10:25:13 PM - Build Step #16: ValidateTteFile (ArtefactID: 0)
+10:25:13 PM - -----------------------------------------------
+10:25:13 PM - ============================== Build Step #16 finished ==============================
+10:25:13 PM - Build Step #17: ValidateIdUsage (ArtefactID: -1)
+10:25:13 PM - ------------------------------------------------
+10:25:13 PM - ============================== Build Step #17 finished ==============================
+10:25:13 PM - Build Step #18: ExportTraceabilityMatrix (ArtefactID: -1)
+10:25:13 PM - ---------------------------------------------------------
+10:25:13 PM - ExportTraceabilityMatrix: Skipped because option is deactivated
+10:25:13 PM - ============================== Build Step #18 finished ==============================
+10:25:13 PM - Build Step #19: IncludeSources (ArtefactID: -1)
+10:25:13 PM - -----------------------------------------------
+10:25:13 PM - IncludeSources: Skipped because option is deactivated
+10:25:13 PM - ============================== Build Step #19 finished ==============================
+10:25:13 PM - Build Step #20: WriteSystemEnvironment (ArtefactID: -1)
+10:25:13 PM - -------------------------------------------------------
+10:25:13 PM - Copy merged Test System Variable file...
+10:25:13 PM - Copy <a5tikv53tq5l-MTSV> to C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\bin_sd8nmvkqu4qa\TestSysVars.vsysvar
+10:25:13 PM - 'C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\bin_sd8nmvkqu4qa\TestSysVars.vsysvar' is up to date (regarding to dependencies in MAKE database)
+10:25:13 PM - Add variant property file...
+10:25:13 PM - No variant properties - nothing to do
+10:25:13 PM - ============================== Build Step #20 finished ==============================
+10:25:13 PM - Build Step #21: WriteTUProperties (ArtefactID: -1)
+10:25:13 PM - --------------------------------------------------
+10:25:13 PM - ============================== Build Step #21 finished ==============================
+10:25:13 PM - Build Step #22: WriteTetEntries (ArtefactID: -1)
+10:25:13 PM - ------------------------------------------------
+10:25:13 PM - ============================== Build Step #22 finished ==============================
+10:25:13 PM - Build Step #23: FuzzTestNLRemove (ArtefactID: -1)
+10:25:13 PM - -------------------------------------------------
+10:25:13 PM - ============================== Build Step #23 finished ==============================
+10:25:13 PM - Build Step #24: WriteManifest (ArtefactID: -1)
+10:25:13 PM - ----------------------------------------------
+10:25:13 PM - Writing manifest C:\Siva\vTEST_a\ACC_Vtest\obj_vTESTstudio_Project\bin_sd8nmvkqu4qa\ACC_Active.vtumanifest
+10:25:13 PM - ============================== Build Step #24 finished ==============================
+10:25:13 PM - Build Step #29: RemoveOrphanedBuildArtfacts (ArtefactID: -1)
+10:25:13 PM - ------------------------------------------------------------
+10:25:13 PM - Removing orphaned build artefacts from the vtuexe's main folder...
+10:25:13 PM - Nothing to do.
+10:25:13 PM - ============================== Build Step #29 finished ==============================
+10:25:13 PM - Build Step #25: WriteMetainfo (ArtefactID: -1)
+10:25:13 PM - ----------------------------------------------
+10:25:13 PM - BUILD TIME excluding ZIP/UNZIP (hours:minutes:seconds:milliseconds): 00:00:00:109

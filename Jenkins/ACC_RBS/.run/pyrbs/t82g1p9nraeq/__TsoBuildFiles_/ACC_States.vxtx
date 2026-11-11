@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testtree>
+  <title></title>
+  <version>1</version>
+  <caplfunction>
+    <name>Tt5eupelg_Tet_TtInit</name>
+  </caplfunction>
+  <testcase>
+    <title>Check_ACC_Active_Status</title>
+    <testcaseid>e5e7d11a-4054-4d2b-9b91-d80edc3f8a42</testcaseid>
+    <caplfunction>
+      <name>Tt5eupelg_Tet_Tc0</name>
+    </caplfunction>
+  </testcase>
+  <testcase>
+    <title>Check_ACC_Passive_Status</title>
+    <testcaseid>2819260a-7824-4a19-90fc-d5cc5bd5efee</testcaseid>
+    <caplfunction>
+      <name>Tt5eupelg_Tet_Tc1</name>
+    </caplfunction>
+  </testcase>
+</testtree>

@@ -1,0 +1,8 @@
+"12:19:05.053";"Starting build";"mode = make"
+"12:19:05.058";"Load test unit";""
+"12:19:05.132";"Transformation of test system variables";""
+"12:19:05.161";"Initialization of parameter scopes";""
+"12:19:05.182";"Compilation of VTT";"C:\New VTest Project\vTEST_a\ACC_RBS\.run\pyrbs\jjmqf4oun9p1\ACC_APC_Conditions.vtt"
+"12:19:05.190";"Compile CAPL file";"C:\New VTest Project\vTEST_a\ACC_RBS\.run\pyrbs\jjmqf4oun9p1\ACC_APC_Conditions.vxtx.can"
+"12:19:05.223";"Load VTT Tree";"C:\New VTest Project\vTEST_a\ACC_RBS\.run\pyrbs\jjmqf4oun9p1\ACC_APC_Conditions.vtt"
+"12:19:05.226";"Build finished";"result = OK"

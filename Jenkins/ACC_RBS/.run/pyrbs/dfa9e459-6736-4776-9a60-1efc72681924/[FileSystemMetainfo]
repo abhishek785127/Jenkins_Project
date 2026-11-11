@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FileSystemMetainfo>
+  <Files>
+    <File Name="ACC_APC_Conditions.vtt" Time="Tuesday, September 2, 2025 12:16:11 PM">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="ACC_APC_Conditions.vtt" /&gt;</SerializedBasedFileName>
+      <CreationTime>2025-09-02T12:16:11.3766509+05:30</CreationTime>
+      <LastWriteTime>2025-09-02T12:16:11.3766509+05:30</LastWriteTime>
+    </File>
+    <File Name="ACC_APC_Conditions.vtumanifest" Time="Tuesday, September 2, 2025 12:16:58 PM">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="ACC_APC_Conditions.vtumanifest" /&gt;</SerializedBasedFileName>
+      <CreationTime>2025-09-02T12:16:11.4668183+05:30</CreationTime>
+      <LastWriteTime>2025-09-02T12:16:58.0988499+05:30</LastWriteTime>
+    </File>
+    <File Name="build.log" Time="Tuesday, September 2, 2025 12:16:58 PM">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="build.log" /&gt;</SerializedBasedFileName>
+      <CreationTime>2025-09-02T12:16:11.4708208+05:30</CreationTime>
+      <LastWriteTime>2025-09-02T12:16:58.1028502+05:30</LastWriteTime>
+    </File>
+    <File Name="TestSysVars.vsysvar" Time="Tuesday, September 2, 2025 11:59:53 AM">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="TestSysVars.vsysvar" /&gt;</SerializedBasedFileName>
+      <CreationTime>2025-09-02T12:16:11.4628100+05:30</CreationTime>
+      <LastWriteTime>2025-09-02T11:59:53.0884432+05:30</LastWriteTime>
+    </File>
+    <File Name="[FileSystemMetainfo]" Time="Tuesday, September 2, 2025 12:16:58 PM">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="[FileSystemMetainfo]" /&gt;</SerializedBasedFileName>
+      <CreationTime>2025-09-02T12:16:58.0145965+05:30</CreationTime>
+      <LastWriteTime>2025-09-02T12:16:58.0145965+05:30</LastWriteTime>
+    </File>
+    <File Name="[MakeInfo]" Time="Tuesday, September 2, 2025 12:16:58 PM">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="[MakeInfo]" /&gt;</SerializedBasedFileName>
+      <CreationTime>2025-09-02T12:16:11.4698184+05:30</CreationTime>
+      <LastWriteTime>2025-09-02T12:16:58.1018504+05:30</LastWriteTime>
+    </File>
+    <File Name="ACC_APC_Conditions.vtt.export.xml" Time="Tuesday, September 2, 2025 12:16:11 PM">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__ExpTbl_\ACC_APC_Conditions.vtt.export.xml" /&gt;</SerializedBasedFileName>
+      <CreationTime>2025-09-02T12:16:11.3766509+05:30</CreationTime>
+      <LastWriteTime>2025-09-02T12:16:11.3766509+05:30</LastWriteTime>
+    </File>
+    <File Name="ACC_APC_Conditions.vxtx" Time="Tuesday, September 2, 2025 12:16:11 PM">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_APC_Conditions.vxtx" /&gt;</SerializedBasedFileName>
+      <CreationTime>2025-09-02T12:16:11.4031619+05:30</CreationTime>
+      <LastWriteTime>2025-09-02T12:16:11.4031619+05:30</LastWriteTime>
+    </File>
+    <File Name="ACC_APC_Conditions.vxtx.can" Time="Tuesday, September 2, 2025 12:16:11 PM">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_APC_Conditions.vxtx.can" /&gt;</SerializedBasedFileName>
+      <CreationTime>2025-09-02T12:16:11.4041663+05:30</CreationTime>
+      <LastWriteTime>2025-09-02T12:16:11.4051672+05:30</LastWriteTime>
+    </File>
+    <File Name="ACC_APC_Conditions.vxtx.cbf" Time="Tuesday, September 2, 2025 12:16:11 PM">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_APC_Conditions.vxtx.cbf" /&gt;</SerializedBasedFileName>
+      <CreationTime>2025-09-02T12:16:11.4426873+05:30</CreationTime>
+      <LastWriteTime>2025-09-02T12:16:11.4436878+05:30</LastWriteTime>
+    </File>
+    <File Name="__CANoeReportFuntionsLib.cin" Time="Tuesday, September 2, 2025 12:16:11 PM">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\__CANoeReportFuntionsLib.cin" /&gt;</SerializedBasedFileName>
+      <CreationTime>2025-09-02T12:16:11.4091671+05:30</CreationTime>
+      <LastWriteTime>2025-09-02T12:16:11.4091671+05:30</LastWriteTime>
+    </File>
+    <File Name="__CaplGeneratorLib.cin" Time="Tuesday, September 2, 2025 12:16:11 PM">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\__CaplGeneratorLib.cin" /&gt;</SerializedBasedFileName>
+      <CreationTime>2025-09-02T12:16:11.4071673+05:30</CreationTime>
+      <LastWriteTime>2025-09-02T12:16:11.4081677+05:30</LastWriteTime>
+    </File>
+    <File Name="__VariablesLib.cin" Time="Tuesday, September 2, 2025 12:16:11 PM">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\__VariablesLib.cin" /&gt;</SerializedBasedFileName>
+      <CreationTime>2025-09-02T12:16:11.4061674+05:30</CreationTime>
+      <LastWriteTime>2025-09-02T12:16:11.4061674+05:30</LastWriteTime>
+    </File>
+  </Files>
+</FileSystemMetainfo>

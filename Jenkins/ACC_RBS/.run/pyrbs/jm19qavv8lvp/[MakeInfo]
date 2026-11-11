@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MakeInfo>
+  <EnvironmentHash>16410324505804930538</EnvironmentHash>
+  <ExportTableHash>10283736750134715008</ExportTableHash>
+  <UserCaplExportTableHash>0</UserCaplExportTableHash>
+  <Files>
+    <File Name="b6743vpa31mv=VP.vvarprop" Time="Tuesday, September 2, 2025 12:31:15 PM" DependentOn="">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\b6743vpa31mv=VP.vvarprop" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T12:31:15.0028873+05:30</LastWriteTime>
+      <Dependencies />
+    </File>
+    <File Name="TestSysVars.vsysvar" Time="Tuesday, September 2, 2025 12:31:02 PM" DependentOn="ltinuo732fap-MTSV">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="TestSysVars.vsysvar" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T12:31:02.1338725+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="ltinuo732fap-MTSV" Time="Tuesday, September 2, 2025 12:31:02 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\ltinuo732fap-MTSV" /&gt;</File>
+          <LastWriteTime>2025-09-02T12:31:02.1338725+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="ltinuo732fap-MTSV" Time="Tuesday, September 2, 2025 12:31:02 PM" DependentOn="">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\ltinuo732fap-MTSV" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T12:31:02.1338725+05:30</LastWriteTime>
+      <Dependencies />
+    </File>
+    <File Name="ACC_Active_Status1.vtt" Time="Tuesday, September 2, 2025 12:32:47 PM" DependentOn="b6743vpa31mv=VP.vvarprop">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\..\Python_testUnit\ACC_Active_Status1.vtt" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T12:32:47.3213765+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="b6743vpa31mv=VP.vvarprop" Time="Tuesday, September 2, 2025 12:31:15 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\b6743vpa31mv=VP.vvarprop" /&gt;</File>
+          <LastWriteTime>2025-09-02T12:31:15.0028873+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="ACC_Active_Status1.vxtx" Time="Tuesday, September 2, 2025 12:35:22 PM" DependentOn="ACC_Active_Status1.vtt, b6743vpa31mv=VP.vvarprop">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_Active_Status1.vxtx" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T12:35:22.9344505+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="ACC_Active_Status1.vtt" Time="Tuesday, September 2, 2025 12:32:47 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\..\Python_testUnit\ACC_Active_Status1.vtt" /&gt;</File>
+          <LastWriteTime>2025-09-02T12:32:47.3213765+05:30</LastWriteTime>
+        </DependentOn>
+        <DependentOn Name="b6743vpa31mv=VP.vvarprop" Time="Tuesday, September 2, 2025 12:31:15 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\b6743vpa31mv=VP.vvarprop" /&gt;</File>
+          <LastWriteTime>2025-09-02T12:31:15.0028873+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="ACC_Active_Status1.vxtx.can" Time="Tuesday, September 2, 2025 12:35:22 PM" DependentOn="ACC_Active_Status1.vtt, b6743vpa31mv=VP.vvarprop">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_Active_Status1.vxtx.can" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T12:35:22.9824746+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="ACC_Active_Status1.vtt" Time="Tuesday, September 2, 2025 12:32:47 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\..\Python_testUnit\ACC_Active_Status1.vtt" /&gt;</File>
+          <LastWriteTime>2025-09-02T12:32:47.3213765+05:30</LastWriteTime>
+        </DependentOn>
+        <DependentOn Name="b6743vpa31mv=VP.vvarprop" Time="Tuesday, September 2, 2025 12:31:15 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\b6743vpa31mv=VP.vvarprop" /&gt;</File>
+          <LastWriteTime>2025-09-02T12:31:15.0028873+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="ACC_Active_Status1.vxtx.cbf" Time="Tuesday, September 2, 2025 12:35:23 PM" DependentOn="ACC_Active_Status1.vxtx.can">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_Active_Status1.vxtx.cbf" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T12:35:23.0616961+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="ACC_Active_Status1.vxtx.can" Time="Tuesday, September 2, 2025 12:35:22 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_Active_Status1.vxtx.can" /&gt;</File>
+          <LastWriteTime>2025-09-02T12:35:22.9824746+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+  </Files>
+</MakeInfo>

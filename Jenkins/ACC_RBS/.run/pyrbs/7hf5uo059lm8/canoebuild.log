@@ -1,0 +1,8 @@
+"13:13:02.139";"Starting build";"mode = make"
+"13:13:02.147";"Load test unit";""
+"13:13:02.264";"Transformation of test system variables";""
+"13:13:02.291";"Initialization of parameter scopes";""
+"13:13:02.302";"Compilation of VTT";"C:\Siva\vTEST_a\NEW\.run\pyrbs\7hf5uo059lm8\ACC_Active_Status1.vtt"
+"13:13:02.309";"Compile CAPL file";"C:\Siva\vTEST_a\NEW\.run\pyrbs\7hf5uo059lm8\ACC_Active_Status1.vxtx.can"
+"13:13:02.340";"Load VTT Tree";"C:\Siva\vTEST_a\NEW\.run\pyrbs\7hf5uo059lm8\ACC_Active_Status1.vtt"
+"13:13:02.360";"Build finished";"result = OK"

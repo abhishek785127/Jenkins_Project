@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testtree>
+  <title />
+  <version>1</version>
+  <caplfunction>
+    <name>_ttg_fct_tt_1__8</name>
+  </caplfunction>
+  <testcase>
+    <title>APC_Speed_Condition</title>
+    <testcaseid>9aeb0773-431e-491f-bd1c-a08c3f24dee9</testcaseid>
+    <caplfunction>
+      <name>_ttg_fct_tc_1__9</name>
+    </caplfunction>
+  </testcase>
+</testtree>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MakeInfo>
+  <EnvironmentHash>16429807584902546226</EnvironmentHash>
+  <ExportTableHash>10283736750134715008</ExportTableHash>
+  <UserCaplExportTableHash>0</UserCaplExportTableHash>
+  <Files>
+    <File Name="e0p514ok972n=VP.vvarprop" Time="Tuesday, September 2, 2025 12:15:50 PM" DependentOn="">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\e0p514ok972n=VP.vvarprop" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T12:15:50.3582365+05:30</LastWriteTime>
+      <Dependencies />
+    </File>
+    <File Name="ACC_APC_Conditions.vtt" Time="Tuesday, September 2, 2025 12:14:33 PM" DependentOn="e0p514ok972n=VP.vvarprop">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\..\ACC_Testing\ACC_APC_Conditions.vtt" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T12:14:33.4461670+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="e0p514ok972n=VP.vvarprop" Time="Tuesday, September 2, 2025 12:15:50 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\e0p514ok972n=VP.vvarprop" /&gt;</File>
+          <LastWriteTime>2025-09-02T12:15:50.3582365+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="ACC_APC_Conditions.vxtx" Time="Tuesday, September 2, 2025 12:16:11 PM" DependentOn="ACC_APC_Conditions.vtt, e0p514ok972n=VP.vvarprop">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_APC_Conditions.vxtx" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T12:16:11.4031619+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="ACC_APC_Conditions.vtt" Time="Tuesday, September 2, 2025 12:14:33 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\..\ACC_Testing\ACC_APC_Conditions.vtt" /&gt;</File>
+          <LastWriteTime>2025-09-02T12:14:33.4461670+05:30</LastWriteTime>
+        </DependentOn>
+        <DependentOn Name="e0p514ok972n=VP.vvarprop" Time="Tuesday, September 2, 2025 12:15:50 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\e0p514ok972n=VP.vvarprop" /&gt;</File>
+          <LastWriteTime>2025-09-02T12:15:50.3582365+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="ACC_APC_Conditions.vxtx.can" Time="Tuesday, September 2, 2025 12:16:11 PM" DependentOn="ACC_APC_Conditions.vtt, e0p514ok972n=VP.vvarprop">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_APC_Conditions.vxtx.can" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T12:16:11.4051672+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="ACC_APC_Conditions.vtt" Time="Tuesday, September 2, 2025 12:14:33 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\..\ACC_Testing\ACC_APC_Conditions.vtt" /&gt;</File>
+          <LastWriteTime>2025-09-02T12:14:33.4461670+05:30</LastWriteTime>
+        </DependentOn>
+        <DependentOn Name="e0p514ok972n=VP.vvarprop" Time="Tuesday, September 2, 2025 12:15:50 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\e0p514ok972n=VP.vvarprop" /&gt;</File>
+          <LastWriteTime>2025-09-02T12:15:50.3582365+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="ACC_APC_Conditions.vxtx.cbf" Time="Tuesday, September 2, 2025 12:16:11 PM" DependentOn="ACC_APC_Conditions.vxtx.can">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_APC_Conditions.vxtx.cbf" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T12:16:11.4436878+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="ACC_APC_Conditions.vxtx.can" Time="Tuesday, September 2, 2025 12:16:11 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_APC_Conditions.vxtx.can" /&gt;</File>
+          <LastWriteTime>2025-09-02T12:16:11.4051672+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="TestSysVars.vsysvar" Time="Tuesday, September 2, 2025 11:59:53 AM" DependentOn="g9gdkve5e64p-MTSV">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="TestSysVars.vsysvar" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T11:59:53.0884432+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="g9gdkve5e64p-MTSV" Time="Tuesday, September 2, 2025 11:59:53 AM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\g9gdkve5e64p-MTSV" /&gt;</File>
+          <LastWriteTime>2025-09-02T11:59:53.0884432+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="g9gdkve5e64p-MTSV" Time="Tuesday, September 2, 2025 11:59:53 AM" DependentOn="">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\g9gdkve5e64p-MTSV" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-09-02T11:59:53.0884432+05:30</LastWriteTime>
+      <Dependencies />
+    </File>
+  </Files>
+</MakeInfo>

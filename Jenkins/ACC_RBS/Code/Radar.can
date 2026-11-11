@@ -1,0 +1,78 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  mstimer timer_ACC_Signal_Status;
+  message ACC_status ACC_message_from_Radar;
+  int ACC_Status =0;
+}
+
+on start
+{
+  setTimer(timer_ACC_Signal_Status,100);
+}
+/*
+on envVar env_variant_coading_done
+{
+  if(@this ==1)
+  {
+    setTimer(timer_ACC_Signal_Status,100);
+  }
+}
+*/
+
+on timer timer_ACC_Signal_Status
+{
+  if($MO_sig_ReadytoDrive==2)
+  {
+    if($ACC_Int_status ==1)
+    {
+      ACC_message_from_Radar.ACC_sig_status=1;
+      ACC_Status=1;
+      if($ACC_MainSwitch_ACC == 2)
+      {
+        ACC_message_from_Radar.ACC_sig_status=1;
+        ACC_Status=1;
+        if($ACC_Set_signal==1 && $Gear_signal == 3 && $Sig_Spdmtr_Rq >=41)
+        {
+          ACC_message_from_Radar.ACC_sig_status=2;
+          ACC_message_from_Radar.ACC_disp_signal=0;
+        }
+        else if($ACC_Set_signal==1 && $Gear_signal == 3 && $Sig_Spdmtr_Rq <=40)
+        {
+          ACC_message_from_Radar.ACC_sig_status=1;
+          ACC_message_from_Radar.ACC_disp_signal=2;
+        }
+        else if($ACC_Set_signal==1 && $Gear_signal == 1)
+        {
+          ACC_message_from_Radar.ACC_sig_status=1;
+         ACC_message_from_Radar.ACC_disp_signal=3;
+        }
+        else
+        {
+          ACC_message_from_Radar.ACC_sig_status=1;
+        }
+      }
+      else
+      {
+        ACC_message_from_Radar.ACC_sig_status=1;
+        ACC_Status=1;
+       // @env_ACC_Set_signal = 0;
+      }
+    }
+    else
+    {
+      ACC_message_from_Radar.ACC_sig_status=0;
+    }
+  }
+  else
+  {
+    ACC_message_from_Radar.ACC_sig_status=0;
+  }
+  output(ACC_message_from_Radar);
+  setTimer(timer_ACC_Signal_Status,100);
+}

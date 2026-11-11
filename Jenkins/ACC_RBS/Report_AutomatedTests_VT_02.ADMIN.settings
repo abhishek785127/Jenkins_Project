@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <WindowManagement>
+    <SerializableDictionaryOfStringObject>
+      <item>
+        <key type="System.String">
+          <string>DockingLayout</string>
+        </key>
+        <value type="System.String">
+          <string>&lt;DockSiteLayout xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SerializationFormat="All" Version="2"&gt;
+	&lt;AutoHideHost /&gt;
+	&lt;Content xsi:type="SplitContainer" Orientation="Horizontal" DockedSize="1089,428"&gt;
+		&lt;UIElement xsi:type="ToolWindowContainer" DockedSize="350,150" SelectedWindowUniqueId="4b7ec7fd-1dad-4fbb-83ff-d7eebf08a70e"&gt;
+			&lt;UIElement xsi:type="ToolWindowRef" UniqueId="4b7ec7fd-1dad-4fbb-83ff-d7eebf08a70e" /&gt;
+		&lt;/UIElement&gt;
+		&lt;UIElement xsi:type="Workspace"&gt;
+			&lt;Content xsi:type="TabbedMdiHost"&gt;
+				&lt;Content xsi:type="TabbedMdiContainer" SelectedWindowUniqueId="7383ef95-b2fa-47aa-bc79-7ecd38890e83"&gt;
+					&lt;UIElement xsi:type="DocumentWindowRef" UniqueId="7383ef95-b2fa-47aa-bc79-7ecd38890e83" /&gt;
+				&lt;/Content&gt;
+			&lt;/Content&gt;
+		&lt;/UIElement&gt;
+	&lt;/Content&gt;
+	&lt;DocumentWindows&gt;
+		&lt;DocumentWindow UniqueId="7383ef95-b2fa-47aa-bc79-7ecd38890e83" SerializationId="TestReport&amp;lt;1&amp;gt;" IsOpen="true" LastActiveDateTime="2026-11-10T19:32:31.5158146+05:30" State="Document" Type="Vector.ReportViewer.UI.ContentViews.Controls.ContentViewDocumentWnd, Vector.ReportViewer.UI" /&gt;
+	&lt;/DocumentWindows&gt;
+	&lt;ToolWindows&gt;
+		&lt;ToolWindow UniqueId="4b7ec7fd-1dad-4fbb-83ff-d7eebf08a70e" Name="mWndExplorer" ContainerDockedSize="350,150" IsOpen="true" State="Docked" /&gt;
+	&lt;/ToolWindows&gt;
+&lt;/DockSiteLayout&gt;</string>
+        </value>
+      </item>
+      <item>
+        <key type="System.String">
+          <string>WindowLayout</string>
+        </key>
+        <value type="Vector.ReportViewer.UI.Windows.WndPosAndSize">
+          <WndPosAndSize>
+            <Location>
+              <X>137</X>
+              <Y>77</Y>
+            </Location>
+            <Width>1093</Width>
+            <Height>614</Height>
+            <WndState>Normal</WndState>
+          </WndPosAndSize>
+        </value>
+      </item>
+    </SerializableDictionaryOfStringObject>
+  </WindowManagement>
+  <GlobalOptions>
+    <SerializableDictionaryOfStringObject>
+      <item>
+        <key type="System.String">
+          <string>ContentView</string>
+        </key>
+        <value type="Vector.ReportViewer.ViewModel.ContentModels.ContentModelPersistList">
+          <ArrayOfContentModelPersist>
+            <ContentModelPersist>
+              <ReportId>-395971323</ReportId>
+              <NodeName>AutomatedTests_VT_02</NodeName>
+              <NodeType>TestReport</NodeType>
+              <DbId>1</DbId>
+              <IsTreeNode>true</IsTreeNode>
+              <PathToNode />
+            </ContentModelPersist>
+          </ArrayOfContentModelPersist>
+        </value>
+      </item>
+    </SerializableDictionaryOfStringObject>
+  </GlobalOptions>
+  <Queries>
+    <SerializableDictionaryOfStringObject>
+      <item>
+        <key type="System.String">
+          <string>OpenUserQueries</string>
+        </key>
+        <value type="System.Collections.Generic.List`1[System.Guid]">
+          <ArrayOfGuid />
+        </value>
+      </item>
+      <item>
+        <key type="System.String">
+          <string>UnsavedQueries</string>
+        </key>
+        <value type="Vector.ReportViewer.Data.QueryTerms.QueryListPersist">
+          <Queries />
+        </value>
+      </item>
+      <item>
+        <key type="System.String">
+          <string>OrderQueries</string>
+        </key>
+        <value type="System.Collections.Generic.List`1[System.Guid]">
+          <ArrayOfGuid />
+        </value>
+      </item>
+    </SerializableDictionaryOfStringObject>
+  </Queries>
+  <Finder>
+    <SerializableDictionaryOfStringObject />
+  </Finder>
+  <Shared>
+    <SerializableDictionaryOfStringObject />
+  </Shared>
+</Settings>

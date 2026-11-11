@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testtree>
+  <title></title>
+  <version>1</version>
+  <caplfunction>
+    <name>Ttvm5qs88_Tet_TtInit</name>
+  </caplfunction>
+  <testcase>
+    <title>APC_Speed_Condition</title>
+    <testcaseid>9aeb0773-431e-491f-bd1c-a08c3f24dee9</testcaseid>
+    <caplfunction>
+      <name>Ttvm5qs88_Tet_Tc0</name>
+    </caplfunction>
+  </testcase>
+</testtree>

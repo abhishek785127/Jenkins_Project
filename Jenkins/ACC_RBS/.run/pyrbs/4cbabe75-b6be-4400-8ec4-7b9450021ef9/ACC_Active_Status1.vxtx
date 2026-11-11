@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testtree>
+  <title />
+  <version>1</version>
+  <caplfunction>
+    <name>_ttg_fct_tt_9__8</name>
+  </caplfunction>
+  <testcase>
+    <title>Check ACC Active Status</title>
+    <testcaseid>de31da1b-a08e-4d39-ac07-a860f377aefe</testcaseid>
+    <caplfunction>
+      <name>_ttg_fct_tc_9__9</name>
+    </caplfunction>
+  </testcase>
+</testtree>

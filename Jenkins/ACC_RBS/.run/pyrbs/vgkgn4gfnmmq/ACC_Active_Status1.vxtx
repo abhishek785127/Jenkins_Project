@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testtree>
+  <title></title>
+  <version>1</version>
+  <caplfunction>
+    <name>Ttojc67r5_Tet_TtInit</name>
+  </caplfunction>
+  <testcase>
+    <title>Check ACC Active Status</title>
+    <testcaseid>cd7c6fd3-433a-49d2-999a-ca7b2b35db2d</testcaseid>
+    <caplfunction>
+      <name>Ttojc67r5_Tet_Tc0</name>
+    </caplfunction>
+  </testcase>
+</testtree>

@@ -1,0 +1,197 @@
+﻿/* !Encoding: 65001  */
+includes
+{
+  #include "__VariablesLib.cin"
+  #include "__CaplGeneratorLib.cin"
+  #include "__CANoeReportFuntionsLib.cin"
+}
+
+variables
+{
+  // Global variables defined within this CAPL file
+}
+
+void Ttjn96jlu_Tet_TtInit()
+{
+
+}
+
+void Ttjn96jlu_Tet_Tc0()
+{
+  CreateTTEIFFunction("Ttjn96jlu_Tc0", __eTcDef, __eLocal);  
+  CallInterfaceFunction("APC_Speed_Condition", __cEmpty , __cEmpty );
+}
+testcase Ttjn96jlu_Tc0()
+{	
+  SetBreakOnFail(1);
+
+  TestCommandBegin(__eSet, __cSet, "", "0");
+  {
+    __ReportTableHead3Columns(__cSetCaption , __cTSym, __cTOp, __cAssigned); 
+    {
+      $`CAN::dbNode::`GWM::`MO_Message_1::`MO_sig_ReadytoDrive.phys = 2;
+      snprintf(__cArray, 8192, "%s", "MO_sig_ReadytoDrive");
+      snprintf(__cArray2, 8192, "%s '%s'", __cCANSignal, __cArray);
+      snprintf(__cArray3, 8192, "%s", "");
+      
+      __ReportSetLValueOrSignalNotOnline(`CAN::dbNode::`GWM::`MO_Message_1::`MO_sig_ReadytoDrive, __cArray2, __cArray4);
+      __ReportTableRow(0, __cArray4, __cAOp, 2, __cArray3);
+      
+  
+    }
+    __ReportTableEndTestStep("1");
+  }
+  TestCommandEnd();
+
+
+  TestCommandBegin(__eSet, __cSet, "", "1");
+  {
+    __ReportTableHead3Columns(__cSetCaption , __cTSym, __cTOp, __cAssigned); 
+    {
+      $`CAN::dbNode::`BCM::`ACC_BCM_Message::`ACC_Int_status.phys = 1;
+      snprintf(__cArray, 8192, "%s", "ACC_Int_status");
+      snprintf(__cArray2, 8192, "%s '%s'", __cCANSignal, __cArray);
+      snprintf(__cArray3, 8192, "%s", "");
+      
+      __ReportSetLValueOrSignalNotOnline(`CAN::dbNode::`BCM::`ACC_BCM_Message::`ACC_Int_status, __cArray2, __cArray4);
+      __ReportTableRow(0, __cArray4, __cAOp, 1, __cArray3);
+      
+  
+    }
+    __ReportTableEndTestStep("1");
+  }
+  TestCommandEnd();
+
+
+  TestCommandBegin(__eSet, __cSet, "", "2");
+  {
+    __ReportTableHead3Columns(__cSetCaption , __cTSym, __cTOp, __cAssigned); 
+    {
+      $`CAN::dbNode::`BCM::`ACC_BCM_Message::`ACC_MainSwitch_ACC.phys = 2;
+      snprintf(__cArray, 8192, "%s", "ACC_MainSwitch_ACC");
+      snprintf(__cArray2, 8192, "%s '%s'", __cCANSignal, __cArray);
+      snprintf(__cArray3, 8192, "%s", "");
+      
+      __ReportSetLValueOrSignalNotOnline(`CAN::dbNode::`BCM::`ACC_BCM_Message::`ACC_MainSwitch_ACC, __cArray2, __cArray4);
+      __ReportTableRow(0, __cArray4, __cAOp, 2, __cArray3);
+      
+  
+    }
+    __ReportTableEndTestStep("1");
+  }
+  TestCommandEnd();
+
+
+  TestCommandBegin(__eSet, __cSet, "", "3");
+  {
+    __ReportTableHead3Columns(__cSetCaption , __cTSym, __cTOp, __cAssigned); 
+    {
+      $`CAN::dbNode::`GWM::`Gear_Message::`Gear_signal.phys = 3;
+      snprintf(__cArray, 8192, "%s", "Gear_signal");
+      snprintf(__cArray2, 8192, "%s '%s'", __cCANSignal, __cArray);
+      snprintf(__cArray3, 8192, "%s", "");
+      
+      __ReportSetLValueOrSignalNotOnline(`CAN::dbNode::`GWM::`Gear_Message::`Gear_signal, __cArray2, __cArray4);
+      __ReportTableRow(0, __cArray4, __cAOp, 3, __cArray3);
+      
+  
+    }
+    __ReportTableEndTestStep("1");
+  }
+  TestCommandEnd();
+
+
+  TestCommandBegin(__eSet, __cSet, "", "4");
+  {
+    __ReportTableHead3Columns(__cSetCaption , __cTSym, __cTOp, __cAssigned); 
+    {
+      $`CAN::dbNode::`BCM::`RDS_Coder_Data_CAN::`Sig_Spdmtr_Rq.phys = 15;
+      snprintf(__cArray, 8192, "%s", "Sig_Spdmtr_Rq");
+      snprintf(__cArray2, 8192, "%s '%s'", __cCANSignal, __cArray);
+      snprintf(__cArray3, 8192, "%s", "");
+      
+      __ReportSetLValueOrSignalNotOnline(`CAN::dbNode::`BCM::`RDS_Coder_Data_CAN::`Sig_Spdmtr_Rq, __cArray2, __cArray4);
+      __ReportTableRow(0, __cArray4, __cAOp, 15, __cArray3);
+      
+  
+    }
+    __ReportTableEndTestStep("1");
+  }
+  TestCommandEnd();
+
+
+  TestCommandBegin(__eSet, __cSet, "", "5");
+  {
+    __ReportTableHead3Columns(__cSetCaption , __cTSym, __cTOp, __cAssigned); 
+    {
+      $`CAN::dbNode::`BCM::`ACC_BCM_Message::`ACC_Set_signal.phys = 1;
+      snprintf(__cArray, 8192, "%s", "ACC_Set_signal");
+      snprintf(__cArray2, 8192, "%s '%s'", __cCANSignal, __cArray);
+      snprintf(__cArray3, 8192, "%s", "");
+      
+      __ReportSetLValueOrSignalNotOnline(`CAN::dbNode::`BCM::`ACC_BCM_Message::`ACC_Set_signal, __cArray2, __cArray4);
+      __ReportTableRow(0, __cArray4, __cAOp, 1, __cArray3);
+      
+  
+    }
+    __ReportTableEndTestStep("1");
+  }
+  TestCommandEnd();
+
+
+  TestCommandBegin(__eWait, __cWait, "", "6");
+  {
+    __Wait("1", (500 * 1000000LL), 1000000, "");
+  }
+  TestCommandEnd();
+
+  TestCommandBegin(__eCheck, __cCheck, "", "7");
+  {
+    __bVerdict = __eVerdictPass;
+    __ReportTableHead5Columns(__cCheckCaption, __cTSym, __cTOp, __cRefVal, __cActual, __cRes);
+    {
+      __csr = CheckSignalMatch(`CAN::`ACC_status::`ACC_sig_status, 1, "==") == 1;
+      snprintf(__cArray, 8192, "%s", "ACC_sig_status");
+      snprintf(__cArray2, 8192, "%s '%s'", __cCANSignal, __cArray);
+      snprintf(__cArray3, 8192, "%s", "");
+      __ReportTableRow(0, __cArray2, "==", 1, __cArray3);
+      __ReportLValueOrSignalNotOnline(`CAN::`ACC_status::`ACC_sig_status, __cArray5);
+      __ReportCell(__cArray5);
+      __ReportCellResult(__csr, __ePassFail);
+  
+      __bVerdict = __bVerdict && __csr;
+    }
+    __ReportTableEndVerdict("1", __bVerdict);
+  }
+  TestCommandEnd();
+
+
+  TestCommandBegin(__eWait, __cWait, "", "8");
+  {
+    __Wait("1", (500 * 1000000LL), 1000000, "");
+  }
+  TestCommandEnd();
+
+  TestCommandBegin(__eCheck, __cCheck, "", "9");
+  {
+    __bVerdict = __eVerdictPass;
+    __ReportTableHead5Columns(__cCheckCaption, __cTSym, __cTOp, __cRefVal, __cActual, __cRes);
+    {
+      __csr = CheckSignalMatch(`CAN::`ACC_status::`ACC_disp_signal, 2, "==") == 1;
+      snprintf(__cArray, 8192, "%s", "ACC_disp_signal");
+      snprintf(__cArray2, 8192, "%s '%s'", __cCANSignal, __cArray);
+      snprintf(__cArray3, 8192, "%s", "");
+      __ReportTableRow(0, __cArray2, "==", 2, __cArray3);
+      __ReportLValueOrSignalNotOnline(`CAN::`ACC_status::`ACC_disp_signal, __cArray5);
+      __ReportCell(__cArray5);
+      __ReportCellResult(__csr, __ePassFail);
+  
+      __bVerdict = __bVerdict && __csr;
+    }
+    __ReportTableEndVerdict("1", __bVerdict);
+  }
+  TestCommandEnd();
+
+
+}
+

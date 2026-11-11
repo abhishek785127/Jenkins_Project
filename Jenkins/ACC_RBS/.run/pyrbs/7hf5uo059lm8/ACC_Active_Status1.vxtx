@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testtree>
+  <title></title>
+  <version>1</version>
+  <caplfunction>
+    <name>Ttbdcog72_Tet_TtInit</name>
+  </caplfunction>
+  <testcase>
+    <title>Check ACC Active Status</title>
+    <testcaseid>197a1a97-827d-448f-ad3b-08d9751d3697</testcaseid>
+    <caplfunction>
+      <name>Ttbdcog72_Tet_Tc0</name>
+    </caplfunction>
+  </testcase>
+</testtree>

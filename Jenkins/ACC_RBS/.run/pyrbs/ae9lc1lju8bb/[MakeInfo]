@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MakeInfo>
+  <EnvironmentHash>654358799988320310</EnvironmentHash>
+  <ExportTableHash>10283736750134715008</ExportTableHash>
+  <UserCaplExportTableHash>0</UserCaplExportTableHash>
+  <Files>
+    <File Name="sd8nmvkqu4qa=VP.vvarprop" Time="Friday, August 29, 2025 10:16:15 PM" DependentOn="">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\sd8nmvkqu4qa=VP.vvarprop" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-08-29T22:16:15.8492010+05:30</LastWriteTime>
+      <Dependencies />
+    </File>
+    <File Name="ACC_States.vtt" Time="Friday, August 29, 2025 10:23:56 PM" DependentOn="sd8nmvkqu4qa=VP.vvarprop">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\..\ACC_Active\ACC_States.vtt" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-08-29T22:23:56.3197146+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="sd8nmvkqu4qa=VP.vvarprop" Time="Friday, August 29, 2025 10:16:15 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\sd8nmvkqu4qa=VP.vvarprop" /&gt;</File>
+          <LastWriteTime>2025-08-29T22:16:15.8492010+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="ACC_States.vxtx" Time="Friday, August 29, 2025 10:25:13 PM" DependentOn="ACC_States.vtt, sd8nmvkqu4qa=VP.vvarprop">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_States.vxtx" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-08-29T22:25:13.5932044+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="ACC_States.vtt" Time="Friday, August 29, 2025 10:23:56 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\..\ACC_Active\ACC_States.vtt" /&gt;</File>
+          <LastWriteTime>2025-08-29T22:23:56.3197146+05:30</LastWriteTime>
+        </DependentOn>
+        <DependentOn Name="sd8nmvkqu4qa=VP.vvarprop" Time="Friday, August 29, 2025 10:16:15 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\sd8nmvkqu4qa=VP.vvarprop" /&gt;</File>
+          <LastWriteTime>2025-08-29T22:16:15.8492010+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="ACC_States.vxtx.can" Time="Friday, August 29, 2025 10:25:13 PM" DependentOn="ACC_States.vtt, sd8nmvkqu4qa=VP.vvarprop">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_States.vxtx.can" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-08-29T22:25:13.5942056+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="ACC_States.vtt" Time="Friday, August 29, 2025 10:23:56 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\..\ACC_Active\ACC_States.vtt" /&gt;</File>
+          <LastWriteTime>2025-08-29T22:23:56.3197146+05:30</LastWriteTime>
+        </DependentOn>
+        <DependentOn Name="sd8nmvkqu4qa=VP.vvarprop" Time="Friday, August 29, 2025 10:16:15 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\sd8nmvkqu4qa=VP.vvarprop" /&gt;</File>
+          <LastWriteTime>2025-08-29T22:16:15.8492010+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="ACC_States.vxtx.cbf" Time="Friday, August 29, 2025 10:25:13 PM" DependentOn="ACC_States.vxtx.can">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_States.vxtx.cbf" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-08-29T22:25:13.6287177+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="ACC_States.vxtx.can" Time="Friday, August 29, 2025 10:25:13 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="__TsoBuildFiles_\ACC_States.vxtx.can" /&gt;</File>
+          <LastWriteTime>2025-08-29T22:25:13.5942056+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="TestSysVars.vsysvar" Time="Friday, August 29, 2025 10:15:58 PM" DependentOn="a5tikv53tq5l-MTSV">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="TestSysVars.vsysvar" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-08-29T22:15:58.4943836+05:30</LastWriteTime>
+      <Dependencies>
+        <DependentOn Name="a5tikv53tq5l-MTSV" Time="Friday, August 29, 2025 10:15:58 PM">
+          <File>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\a5tikv53tq5l-MTSV" /&gt;</File>
+          <LastWriteTime>2025-08-29T22:15:58.4943836+05:30</LastWriteTime>
+        </DependentOn>
+      </Dependencies>
+    </File>
+    <File Name="a5tikv53tq5l-MTSV" Time="Friday, August 29, 2025 10:15:58 PM" DependentOn="">
+      <SerializedBasedFileName>&lt;VFileName v="V9" f="BQL" init="1" base="cfg" name="..\a5tikv53tq5l-MTSV" /&gt;</SerializedBasedFileName>
+      <LastWriteTime>2025-08-29T22:15:58.4943836+05:30</LastWriteTime>
+      <Dependencies />
+    </File>
+  </Files>
+</MakeInfo>

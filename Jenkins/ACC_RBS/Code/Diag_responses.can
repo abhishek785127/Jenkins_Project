@@ -1,0 +1,322 @@
+/*@!Encoding:1252*/
+includes
+{
+  
+}
+
+variables
+{
+  message 0x601 Response;
+  message 0x701 Request;
+ 
+  int is_in_extendedsession=0;
+  int is_in_programming_Session=0;
+  int is_in_default_Session=1;
+  int is_variant_coading_done =0;
+  msTimer testerpresent_check,NRC_78_Timer_for_default_session_session,NRC_78_Timer_for_programming_session;
+  //message 0x32B x;
+
+}
+
+
+
+on timer testerpresent_check
+{
+  write("timer_lapsed");
+  @env_tester_present_on_or_off=0;
+  is_in_default_Session=1;
+  is_in_extendedsession=0;
+  is_in_programming_Session=0;
+}
+
+
+
+
+on start
+{
+  $Sig_Spdmtr_Rq =0;
+  //output(x);
+}
+
+
+on message 0x701
+{
+  cancelTimer(testerpresent_check);
+  setTimer(testerpresent_check,5000);
+  //write("request received");
+  Response.DataLength = 4069;
+  Response.dlc=64;
+  Response.FDF=1;
+  if(this.byte(1)==0x10 && this.byte(2) == 0x03)
+  {
+    if(is_in_programming_Session==1)
+    {
+    NRC_7E(this.byte(1));
+    }
+    else
+    {
+      is_in_extendedsession =1;
+      is_in_default_Session=0;
+      is_in_programming_Session=0;
+      positive_response_SID_10(this.byte(2));
+    }
+  }
+  else if(this.byte(1)==0x10 && this.byte(2) == 0x01)
+  {
+    if(is_in_programming_Session==1)
+    {
+    NRC_78(this.byte(1));
+    setTimer(NRC_78_Timer_for_default_session_session,500);
+    }
+    else
+    {
+      is_in_extendedsession =0;
+      is_in_programming_Session=0;
+      positive_response_SID_10(this.byte(2));
+      is_in_default_Session=1;
+    }
+  }
+  else if(this.byte(1)==0x10 && this.byte(2) == 0x02)
+  {
+    if(is_in_extendedsession ==1)
+    {
+      if($Sig_Spdmtr_Rq>=5)
+      {
+        NRC_22(this.byte(1));
+      }
+      else
+      {
+    NRC_78(this.byte(1));
+    setTimer(NRC_78_Timer_for_programming_session,500);
+      }
+    }
+    else if(is_in_programming_Session==1)
+    {
+      if($Sig_Spdmtr_Rq>=5)
+      {
+        NRC_22(this.byte(1));
+      }
+      else
+      {
+    setTimer(NRC_78_Timer_for_programming_session,500);
+      }
+    }
+    else
+    {
+      NRC_7E(this.byte(1));
+    }
+  }
+  else if((this.byte(1)==0x10 && this.byte(2)==0x55)||(this.byte(1)==0x10 && this.byte(2) == 0x02 && this.byte(3)!=0x55)||(this.byte(1)==0x10 && this.byte(2) == 0x01 && this.byte(3)!=0x55)||(this.byte(1)==0x10 && this.byte(2) == 0x03 && this.byte(3)!=0x55))
+  {
+    NRC_13(this.byte(1));
+  }
+  else if(this.byte(1)==0x10 && (this.byte(2)!=0x01 || this.byte(2)!=0x02 ||this.byte(2)!=0x03 || this.byte(2)!=0x55))
+  {
+    NRC_12(this.byte(1));
+  }
+  else if(this.byte(1)==0x3E && this.byte(2) == 0x00)
+  {
+    Testerpresent_response();
+    write("Request_received");
+  }
+  else if(this.byte(1)==0x22)
+  {
+    DID_Details(this.byte(2), this.byte(3));
+  }
+  else if(this.byte(1)==0x2E)
+  {
+    check_SID_2E(this.byte(2),this.byte(3),this.byte(4),this.byte(5),this.byte(6),this.byte(7));
+  }
+}
+
+
+void check_SID_2E(byte DID_1, byte DID_2, byte data_1, byte data_2,byte data_3,byte data_4)
+{
+  if(DID_1==0xDE && DID_2 == 0x02)
+  {
+    if(data_1 ==0x01 && data_2 == 0x02)
+    {
+      is_variant_coading_done=1;
+      @env_variant_coading_done=1;
+      positive_response_SID_2E(DID_1,DID_2);
+    }
+    else
+    {
+      NRC_31(0x2E);
+    }
+  }
+  else
+  {
+    NRC_31(0x2E);
+  }
+}
+
+void positive_response_SID_2E(byte DID_1, byte DID_2)
+{
+  Response.byte(0) = 0x03;
+  Response.byte(1) = 0x6E;
+  Response.byte(2) = DID_1;
+  Response.byte(3) = DID_2;
+  Response.byte(4) = 0x00;
+  Response.byte(5) = 0x00;
+  Response.byte(6) = 0x00;
+  output(Response);
+}
+
+
+
+void NRC_31(byte sid)
+{
+  Response.byte(0) = 0x03;
+  Response.byte(1) = 0x7F;
+  Response.byte(2) = sid;
+  Response.byte(3) = 0x31;
+  Response.byte(4) = 0x00;
+  Response.byte(5) = 0x00;
+  Response.byte(6) = 0x00;
+  output(Response);
+}
+
+
+on timer NRC_78_Timer_for_programming_session
+{
+  positive_response_SID_10(0x02);
+  is_in_programming_Session = 1;
+  is_in_extendedsession=0;
+  is_in_default_Session=0;
+}
+
+void Testerpresent_response()
+{
+  cancelTimer(testerpresent_check);
+  write("Timer_cancelled");
+  Response.byte(0) = 0x02;
+  Response.byte(1) = 0x7E;
+  Response.byte(2) = 0x00;
+  Response.byte(3) = 0x00;
+  Response.byte(4) = 0x00;
+  Response.byte(5) = 0x00;
+  Response.byte(6) = 0x00;
+  output(Response);
+  @env_tester_present_on_or_off =1;
+  //@MissingSwitches::Sys_Tester_present_on =1;
+  setTimer(testerpresent_check,5000);
+  write("Timer set");
+}
+
+void positive_response_SID_10(byte subFunction)
+{
+  write("Entered");
+  Response.byte(0) = 0x06;
+  Response.byte(1) = 0x50;
+  Response.byte(2) = subFunction;
+  Response.byte(3) = 0x01;
+  Response.byte(4) = 0xF4;
+  Response.byte(5) = 0x13;
+  Response.byte(6) = 0x88;
+  output(Response);
+  setTimer(testerpresent_check,5000);
+}
+
+void NRC_78(byte from_service)
+{
+  Response.byte(0) = 0x03;
+  Response.byte(1) = 0x7F;
+  Response.byte(2) = from_service;
+  Response.byte(3) = 0x78;
+  Response.byte(4) = 0x00;
+  Response.byte(5) = 0x00;
+  Response.byte(6) = 0x00;
+  output(Response);
+}
+
+void NRC_22(byte from_service)
+{
+  Response.byte(0) = 0x03;
+  Response.byte(1) = 0x7F;
+  Response.byte(2) = from_service;
+  Response.byte(3) = 0x22;
+  Response.byte(4) = 0x00;
+  Response.byte(5) = 0x00;
+  Response.byte(6) = 0x00;
+  output(Response);
+}
+
+void NRC_7E(byte from_service)
+{
+  Response.byte(0) = 0x03;
+  Response.byte(1) = 0x7F;
+  Response.byte(2) = from_service;
+  Response.byte(3) = 0x7E;
+  Response.byte(4) = 0x00;
+  Response.byte(5) = 0x00;
+  Response.byte(6) = 0x00;
+  output(Response);
+}
+void NRC_7F(byte from_service)
+{
+  Response.byte(0) = 0x03;
+  Response.byte(1) = 0x7F;
+  Response.byte(2) = from_service;
+  Response.byte(3) = 0x7F;
+  Response.byte(4) = 0x00;
+  Response.byte(5) = 0x00;
+  Response.byte(6) = 0x00;
+  output(Response);
+}
+
+void NRC_13(byte from_service)
+{
+  Response.byte(0) = 0x03;
+  Response.byte(1) = 0x7F;
+  Response.byte(2) = from_service;
+  Response.byte(3) = 0x13;
+  Response.byte(4) = 0x00;
+  Response.byte(5) = 0x00;
+  Response.byte(6) = 0x00;
+  output(Response);
+}
+void NRC_12(byte from_service)
+{
+  Response.byte(0) = 0x03;
+  Response.byte(1) = 0x7F;
+  Response.byte(2) = from_service;
+  Response.byte(3) = 0x12;
+  Response.byte(4) = 0x00;
+  Response.byte(5) = 0x00;
+  Response.byte(6) = 0x00;
+  output(Response);
+}
+
+void DID_Details(byte DID_1, byte DID_2)
+{
+  if(DID_1 == 0xF2 && DID_2 == 0x13)
+  {
+    if(is_in_default_Session==1)
+    {
+      Session_response(DID_1,DID_2,0x1);
+    }
+    else if(is_in_extendedsession==1)
+    {
+      Session_response(DID_1,DID_2,0x3);
+    }
+    else if(is_in_programming_Session==1)
+    {
+      Session_response(DID_1,DID_2,0x2);
+    }
+  }
+}
+
+void Session_response(byte DID_1, byte DID_2, byte session)
+{
+  Response.byte(0) = 0x04;
+  Response.byte(1) = 0x62;
+  Response.byte(2) = DID_1;
+  Response.byte(3) = DID_2;
+  Response.byte(4) = session;
+  Response.byte(5) = 0x00;
+  Response.byte(6) = 0x00;
+  output(Response);
+  
+}
+
